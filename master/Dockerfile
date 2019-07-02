@@ -3,7 +3,7 @@ FROM openjdk:8-windowsservercore
 MAINTAINER Alex Smagin
 
 # Jenkins defaults (use --build-arg to override)
-ARG JENKINS_VERSION=2.46.1
+ARG JENKINS_VERSION=2.182
 ARG JENKINS_UC=https://updates.jenkins.io
 
 # Jenkins setup
